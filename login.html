@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>登录 - Trip 旅游网站</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Trip</a>
+      <button class="nav-toggle" aria-label="打开导航">☰</button>
+      <nav class="site-nav">
+        <a href="index.html">首页</a>
+        <a href="destinations.html">目的地</a>
+        <a href="itineraries.html">行程</a>
+        <a href="attractions.html">景点</a>
+        <a href="guides.html">攻略</a>
+        <a href="about.html">关于</a>
+        <a href="login.html">登录</a>
+        <a href="register.html">注册</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section page-intro">
+      <h1>用户登录</h1>
+      <p>输入账号和密码登录到你的旅游账户。当前为静态演示页面，不会真实提交。</p>
+    </section>
+
+    <section class="section auth-card">
+      <form class="auth-form" action="#" method="post">
+        <div class="form-group">
+          <label for="login-email">手机号 / 邮箱</label>
+          <input id="login-email" type="text" placeholder="输入手机号或邮箱" />
+        </div>
+        <div class="form-group">
+          <label for="login-password">密码</label>
+          <input id="login-password" type="password" placeholder="输入密码" />
+        </div>
+        <button class="button" type="submit">登录</button>
+        <p class="form-note">没有账号？<a href="register.html">立即注册</a></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Trip 旅游网站。静态展示，便于后续扩展。</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

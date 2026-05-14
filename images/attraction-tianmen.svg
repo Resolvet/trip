@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#e8f5ff" />
+  <path d="M80 260 Q160 180 240 260 T400 260 T560 260 V360 H0 Z" fill="#5f8ed7" />
+  <path d="M360 100 C380 60 420 60 440 100 L450 120 L360 120 Z" fill="#f4a261" />
+  <text x="50%" y="55%" text-anchor="middle" fill="#1f2937" font-size="34" font-family="Arial">景点</text>
+</svg>

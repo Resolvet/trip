@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#d4f5d4" />
+  <path d="M0 260 Q160 180 320 260 T640 260 V360 H0 Z" fill="#79c267" />
+  <path d="M180 260 L240 180 L300 260 Z" fill="#3d9140" />
+  <path d="M340 260 L400 170 L460 260 Z" fill="#3d9140" />
+  <text x="50%" y="55%" text-anchor="middle" fill="#1f2937" font-size="36" font-family="Arial">自然</text>
+</svg>

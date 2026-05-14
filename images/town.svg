@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#fff4d1" />
+  <path d="M80 220 L180 120 L280 220 Z" fill="#f4a261" />
+  <path d="M220 220 L320 140 L420 220 Z" fill="#e76f51" />
+  <rect x="120" y="220" width="120" height="80" fill="#2a9d8f" />
+  <rect x="320" y="220" width="120" height="80" fill="#264653" />
+  <text x="50%" y="55%" text-anchor="middle" fill="#1f2937" font-size="36" font-family="Arial">古镇</text>
+</svg>

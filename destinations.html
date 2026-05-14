@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>目的地 - Trip 旅游网站</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Trip</a>
+      <button class="nav-toggle" aria-label="打开导航">☰</button>
+      <nav class="site-nav">
+        <a href="index.html">首页</a>
+        <a href="destinations.html">目的地</a>
+        <a href="itineraries.html">行程</a>
+        <a href="attractions.html">景点</a>
+        <a href="guides.html">攻略</a>
+        <a href="about.html">关于</a>
+        <a href="login.html">登录</a>
+        <a href="register.html">注册</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section page-intro">
+      <h1>目的地展示</h1>
+      <p>按类型分类展示旅游目的地，帮助你快速找到下一个旅行目的地。</p>
+    </section>
+
+    <section class="section filter-bar">
+      <span>筛选：</span>
+      <button class="chip">海岛</button>
+      <button class="chip">古镇</button>
+      <button class="chip">城市</button>
+      <button class="chip">自然景观</button>
+    </section>
+
+    <section class="section grid-list">
+      <article class="card">
+        <img src="images/sea.svg" alt="海岛" />
+        <h2>巴厘岛</h2>
+        <p>热带海岛度假胜地，适合沙滩、潜水和休闲放松。</p>
+      </article>
+      <article class="card">
+        <img src="images/town.svg" alt="古镇" />
+        <h2>乌镇</h2>
+        <p>江南水乡古镇，拥有古桥、民居和茶馆文化。</p>
+      </article>
+      <article class="card">
+        <img src="images/city.svg" alt="城市" />
+        <h2>东京</h2>
+        <p>现代都市与传统文化结合，购物、美食与夜生活丰富。</p>
+      </article>
+      <article class="card">
+        <img src="images/nature.svg" alt="自然" />
+        <h2>张家界</h2>
+        <p>奇峰异石、森林峡谷和玻璃桥体验，适合户外探险。</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Trip 旅游网站。静态展示，便于后续扩展。</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

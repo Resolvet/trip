@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>景点介绍 - Trip 旅游网站</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Trip</a>
+      <button class="nav-toggle" aria-label="打开导航">☰</button>
+      <nav class="site-nav">
+        <a href="index.html">首页</a>
+        <a href="destinations.html">目的地</a>
+        <a href="itineraries.html">行程</a>
+        <a href="attractions.html">景点</a>
+        <a href="guides.html">攻略</a>
+        <a href="about.html">关于</a>
+        <a href="login.html">登录</a>
+        <a href="register.html">注册</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section page-intro">
+      <h1>景点详情</h1>
+      <p>展示热门景点的详细信息，包含开放时间、门票、交通与游玩建议。</p>
+    </section>
+
+    <section class="section attraction-search">
+      <label for="attraction-search">搜索景点：</label>
+      <input id="attraction-search" class="search-input" type="search" placeholder="输入景点名称，例如：天门山" />
+    </section>
+
+    <section class="section strategy-section">
+      <h2>相关旅游攻略</h2>
+      <p>快速打开外部攻略页面，默认使用“云南旅游攻略”关键词查询。</p>
+      <form class="strategy-form" action="http://bbk.zjiops.cn/777/" method="get" target="_blank">
+        <input type="hidden" name="e_creative" value="140917318477" />
+        <input type="hidden" name="e_keywordid" value="1397818450285" />
+        <input type="hidden" name="e_keywordid2" value="1397818450285" />
+        <input type="hidden" name="bd_vid" value="10956589185687754394" />
+        <label for="strategy-keyword">关键词：</label>
+        <div class="strategy-actions">
+          <input id="strategy-keyword" name="keyword" class="search-input" type="text" value="云南旅游攻略" />
+          <button class="button" type="submit">查看攻略</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="section attraction-list">
+      <article class="card attraction-card" data-title="天门山国家森林公园">
+        <img src="images/attraction-tianmen.svg" alt="天门山" />
+        <div>
+          <h2>天门山国家森林公园</h2>
+          <p>著名的高山玻璃栈道、天门洞和缆车体验，适合冒险与自然观光。</p>
+          <ul>
+            <li>开放时间：08:00 - 18:00</li>
+            <li>门票信息：成人票 258 元起</li>
+            <li>交通方式：市区巴士 / 自驾 / 包车</li>
+            <li>游玩建议：提前预约缆车票，避开高峰时段。</li>
+          </ul>
+          <p>周边推荐：美食街、茶馆和酒店度假村。</p>
+          <a class="button detail-button" href="attraction-detail.html">查看详情</a>
+        </div>
+      </article>
+      <article class="card attraction-card" data-title="乌镇古镇">
+        <img src="images/attraction-town.svg" alt="乌镇" />
+        <div>
+          <h2>乌镇古镇</h2>
+          <p>江南水乡景区，游览古桥、手工艺店和传统茶馆。</p>
+          <ul>
+            <li>开放时间：09:00 - 17:00</li>
+            <li>门票信息：成人票 120 元起</li>
+            <li>交通方式：高速高铁 + 公交 / 包车</li>
+            <li>游玩建议：清晨或傍晚游览，避开游客高峰。</li>
+          </ul>
+          <p>周边推荐：手工茶室、水上民宿和本地小吃。</p>
+          <a class="button detail-button" href="attraction-detail.html">查看详情</a>
+        </div>
+      </article>
+      <article class="card attraction-card" data-title="东京塔">
+        <img src="images/attraction-city.svg" alt="东京塔" />
+        <div>
+          <h2>东京塔</h2>
+          <p>东京地标观景塔，适合城市夜景摄影与购物美食体验。</p>
+          <ul>
+            <li>开放时间：09:00 - 22:00</li>
+            <li>门票信息：成人票 2000 日元起</li>
+            <li>交通方式：地铁 / 公交</li>
+            <li>游玩建议：提前网上购票并观看夜景。</li>
+          </ul>
+          <p>周边推荐：芝公园、东京铁塔周边餐厅与购物区。</p>
+          <a class="button detail-button" href="attraction-detail.html">查看详情</a>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Trip 旅游网站。静态展示，便于后续扩展。</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

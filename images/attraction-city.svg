@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#e8f0ff" />
+  <rect x="140" y="120" width="70" height="170" fill="#264653" />
+  <rect x="240" y="90" width="90" height="200" fill="#2a9d8f" />
+  <rect x="360" y="130" width="70" height="160" fill="#f4a261" />
+  <path d="M450 170 C460 140 490 120 520 150 L520 160 L450 160 Z" fill="#e76f51" />
+  <text x="50%" y="62%" text-anchor="middle" fill="#1f2937" font-size="34" font-family="Arial">东京</text>
+</svg>
